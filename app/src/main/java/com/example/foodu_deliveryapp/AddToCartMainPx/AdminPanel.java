@@ -63,7 +63,7 @@ public class AdminPanel extends AppCompatActivity {
                     Toast.makeText(AdminPanel.this, "Enter Credentials", Toast.LENGTH_SHORT).show();
                 } else if (selectedImageUri == null) {
                     // Show toast message if no image is selected
-                    Toast.makeText(AdminPanel.this, "Select Image", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(AdminPanel.this, "Select Imaged", Toast.LENGTH_SHORT).show();
                 } else if (selectedCategory == null) {
                     Toast.makeText(AdminPanel.this, "Select a Category", Toast.LENGTH_SHORT).show();
                 } else {
