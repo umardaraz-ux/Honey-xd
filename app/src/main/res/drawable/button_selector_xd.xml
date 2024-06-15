@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Pressed state -->
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#FF0000"/> <!-- Change to the desired text color when pressed -->
+            <size android:width="193dp" android:height="3dp"/>
+        </shape>
+    </item>
+    <!-- Selected state -->
+    <item android:state_selected="true">
+        <shape>
+            <solid android:color="#FF0000"/> <!-- Change to the desired text color when selected -->
+            <size android:width="193dp" android:height="3dp"/>
+        </shape>
+    </item>
+    <!-- Default state -->
+    <item>
+        <shape>
+            <solid android:color="#79737070"/> <!-- Change to the desired text color when not pressed -->
+            <size android:width="193dp" android:height="3dp"/>
+        </shape>
+    </item>
+</selector>

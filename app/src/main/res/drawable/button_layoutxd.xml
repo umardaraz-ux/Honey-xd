@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Solid color for the button background (change #RRGGBB to your desired color code) -->
+    <solid android:color="#ACD1E1" /> <!-- Example: Red color -->
+
+    <!-- Stroke properties (change #RRGGBB to your desired color code and specify stroke width) -->
+    <stroke
+        android:width="2dp" android:color="#574E53" /><!-- Example: Blue stroke color -->
+
+    <!-- Corner radius for rounded corners (optional, set to 0dp for no rounding) -->
+    <corners android:radius="35dp" /> <!-- Example: 8dp rounded corners -->
+
+</shape>

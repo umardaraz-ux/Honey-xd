@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="145dp"
+    android:layout_marginTop="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        app:cardCornerRadius="20dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardMaxElevation="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:id="@+id/specialimage4"
+            android:layout_width="80dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/img"
+            android:layout_height="80dp"/>
+
+        <TextView
+            android:id="@+id/saladspecial4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Special Salad"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="24dp"/>
+
+        <TextView
+            android:id="@+id/resturantname4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Marhaba Mahal"
+            android:textSize="13dp"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="50dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="81dp"
+            android:background="#b6b6b6"
+            android:layout_marginLeft="128dp"
+            android:layout_marginRight="49dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rp"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:textColor="#FF0000"
+            android:layout_marginTop="90dp"
+            android:layout_marginLeft="125dp"/>
+
+
+        <TextView
+            android:id="@+id/textchange4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5,000.00"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:textColor="#FF0000"
+            android:layout_marginTop="90dp"
+            android:layout_marginLeft="152dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rp"
+            android:textStyle="bold"
+            android:textSize="11dp"
+            android:layout_marginTop="93dp"
+            android:layout_marginLeft="237dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="101dp"
+            android:background="#b6b6b6"
+            android:layout_marginLeft="230dp"
+            android:layout_marginRight="65dp"/>
+
+        <TextView
+            android:id="@+id/change4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5,000.00"
+            android:textStyle="bold"
+            android:textSize="11dp"
+            android:layout_marginTop="93dp"
+            android:layout_marginLeft="254dp"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="80dp"
+            android:layout_height="25dp"
+            android:text="50% OFF"
+            android:layout_marginLeft="241dp"
+            android:background="@drawable/custom_button"/>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

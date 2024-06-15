@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "386680827013",
+    "project_id": "foodu-a57fc",
+    "storage_bucket": "foodu-a57fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386680827013:android:461bfd40a9a8a88741cdec",
+        "android_client_info": {
+          "package_name": "com.example.foodu_deliveryapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGXWZqPp96B_YVMdUHfn73Egb-53PX31k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
